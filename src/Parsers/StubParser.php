@@ -318,6 +318,7 @@ class StubParser
             'select' => Select::class,
             'ckeditor' => Ckeditor::class,
             'checkbox' => Checkbox::class,
+            'date' => Date::class,
         ];
 
         return $classMap[$type];
